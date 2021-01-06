@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5821ABCF25A475600014C094 /* ViewCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5821ABCE25A475600014C094 /* ViewCollectionController.swift */; };
+		5821ABD425A4A78E0014C094 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5821ABD325A4A78E0014C094 /* Alert.swift */; };
 		58237C8525A3AFE400DF653D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58237C8425A3AFE400DF653D /* AppDelegate.swift */; };
 		58237C8725A3AFE400DF653D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58237C8625A3AFE400DF653D /* SceneDelegate.swift */; };
 		58237C8925A3AFE400DF653D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58237C8825A3AFE400DF653D /* ViewController.swift */; };
@@ -15,6 +17,10 @@
 		58237C9125A3AFE400DF653D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58237C8F25A3AFE400DF653D /* LaunchScreen.storyboard */; };
 		58237C9C25A3AFE500DF653D /* GameProject_PuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58237C9B25A3AFE500DF653D /* GameProject_PuzzleTests.swift */; };
 		58237CA725A3AFE500DF653D /* GameProject_PuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58237CA625A3AFE500DF653D /* GameProject_PuzzleUITests.swift */; };
+		58237CB825A3B11B00DF653D /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58237CB725A3B11B00DF653D /* Puzzle.swift */; };
+		58237CBD25A3B4E000DF653D /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58237CBC25A3B4E000DF653D /* ImageCollectionViewCell.swift */; };
+		58749B9B25A524B400847F5F /* imgbin-telegram-bot-api-sticker-messaging-apps-viber-others-WWFGs6gCZkSscp3B8kLcrv4gL_t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58749B9A25A524B400847F5F /* imgbin-telegram-bot-api-sticker-messaging-apps-viber-others-WWFGs6gCZkSscp3B8kLcrv4gL_t.jpg */; };
+		58749BA025A5252400847F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58749B9F25A5252400847F5F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5821ABCE25A475600014C094 /* ViewCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCollectionController.swift; sourceTree = "<group>"; };
+		5821ABD325A4A78E0014C094 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		58237C8125A3AFE400DF653D /* GameProject_Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameProject_Puzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58237C8425A3AFE400DF653D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58237C8625A3AFE400DF653D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		58237CA225A3AFE500DF653D /* GameProject_PuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameProject_PuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58237CA625A3AFE500DF653D /* GameProject_PuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProject_PuzzleUITests.swift; sourceTree = "<group>"; };
 		58237CA825A3AFE500DF653D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58237CB725A3B11B00DF653D /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		58237CBC25A3B4E000DF653D /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		58749B9A25A524B400847F5F /* imgbin-telegram-bot-api-sticker-messaging-apps-viber-others-WWFGs6gCZkSscp3B8kLcrv4gL_t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "imgbin-telegram-bot-api-sticker-messaging-apps-viber-others-WWFGs6gCZkSscp3B8kLcrv4gL_t.jpg"; path = "Assets.xcassets/imgbin-telegram-bot-api-sticker-messaging-apps-viber-others-WWFGs6gCZkSscp3B8kLcrv4gL_t.imageset/imgbin-telegram-bot-api-sticker-messaging-apps-viber-others-WWFGs6gCZkSscp3B8kLcrv4gL_t.jpg"; sourceTree = "<group>"; };
+		58749B9F25A5252400847F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +114,16 @@
 				58237C8425A3AFE400DF653D /* AppDelegate.swift */,
 				58237C8625A3AFE400DF653D /* SceneDelegate.swift */,
 				58237C8825A3AFE400DF653D /* ViewController.swift */,
+				5821ABCE25A475600014C094 /* ViewCollectionController.swift */,
 				58237C8A25A3AFE400DF653D /* Main.storyboard */,
+				58237CBC25A3B4E000DF653D /* ImageCollectionViewCell.swift */,
 				58237C8D25A3AFE400DF653D /* Assets.xcassets */,
 				58237C8F25A3AFE400DF653D /* LaunchScreen.storyboard */,
 				58237C9225A3AFE400DF653D /* Info.plist */,
+				58749B9F25A5252400847F5F /* Assets.xcassets */,
+				58749B9A25A524B400847F5F /* imgbin-telegram-bot-api-sticker-messaging-apps-viber-others-WWFGs6gCZkSscp3B8kLcrv4gL_t.jpg */,
+				58237CB725A3B11B00DF653D /* Puzzle.swift */,
+				5821ABD325A4A78E0014C094 /* Alert.swift */,
 			);
 			path = GameProject_Puzzle;
 			sourceTree = "<group>";
@@ -233,7 +251,9 @@
 			files = (
 				58237C9125A3AFE400DF653D /* LaunchScreen.storyboard in Resources */,
 				58237C8E25A3AFE400DF653D /* Assets.xcassets in Resources */,
+				58749B9B25A524B400847F5F /* imgbin-telegram-bot-api-sticker-messaging-apps-viber-others-WWFGs6gCZkSscp3B8kLcrv4gL_t.jpg in Resources */,
 				58237C8C25A3AFE400DF653D /* Main.storyboard in Resources */,
+				58749BA025A5252400847F5F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +279,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				58237C8925A3AFE400DF653D /* ViewController.swift in Sources */,
+				58237CBD25A3B4E000DF653D /* ImageCollectionViewCell.swift in Sources */,
+				58237CB825A3B11B00DF653D /* Puzzle.swift in Sources */,
 				58237C8525A3AFE400DF653D /* AppDelegate.swift in Sources */,
+				5821ABCF25A475600014C094 /* ViewCollectionController.swift in Sources */,
 				58237C8725A3AFE400DF653D /* SceneDelegate.swift in Sources */,
+				5821ABD425A4A78E0014C094 /* Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
